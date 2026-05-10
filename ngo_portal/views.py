@@ -69,7 +69,7 @@ def page_shell(title: str, session: Optional[Dict[str, Any]], content: str, noti
     {content}
 </main>
 <footer class="site-footer">
-    <span>ImpactOps for vishalkesharwani.in</span>
+    
     <span>Secure donor operations | Auditable workflows | Private access</span>
 </footer>
 </body>
@@ -161,18 +161,7 @@ def home_page(session: Optional[Dict[str, Any]]) -> str:
                 <span>Security headers</span>
             </div>
         </section>
-        <section id="operations" class="site-section split-feature">
-            <div>
-                <p class="eyebrow">Deployment ready</p>
-                <h2>Designed for a subdomain like portal.vishalkesharwani.in.</h2>
-                <p class="lead">The app uses a simple Python entrypoint, isolated modules, persistent SQLite storage, and clean public/portal separation so it can be hosted behind HTTPS on a VPS or cloud instance.</p>
-            </div>
-            <div class="deploy-card">
-                <span>Suggested route</span>
-                <strong>portal.vishalkesharwani.in</strong>
-                <p>Reverse proxy -> Python WSGI app -> private data directory</p>
-            </div>
-        </section>
+        
         """
         return page_shell("ImpactOps - Donor Management Platform", session, content)
 
