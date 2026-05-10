@@ -1,30 +1,36 @@
+# Python cache
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
+# Virtual environments
 .env
 .venv/
 venv/
 env/
 
+# Database files
 data/*.sqlite3
 data/*.db
 data/*.db-journal
 data/*.sqlite3-journal
 
+# Submission / generated folders
 SUBMISSION_Group_51_NGO_Donation_Portal/
 documents_pdf/
 documents_docx/
 
+# Cache folders
 .pytest_cache/
 .mypy_cache/
+
+# OS files
 .DS_Store
 Thumbs.db
 
-SUBMISSION_Group_51_NGO_Donation_Portal/
-
+# Ignore specific files
 architecture.jpeg
 HOSTING.md
-ng_portal_review3.py
+ngo_portal_review3.py
 Procfile
