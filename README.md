@@ -1,6 +1,6 @@
 # ImpactOps Donor Management Platform
 
-Structured Python implementation of a secure donor management platform for hosting under a subdomain such as `portal.vishalkesharwani.in`.
+Structured Python implementation of a secure donor management platform for hosting under a subdomain such as `ngoportal.vishalkesharwani.in`.
 
 ## Run
 
